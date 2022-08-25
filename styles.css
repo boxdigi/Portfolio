@@ -1,5 +1,5 @@
 :root {
-    --branding-color: #6c63ff;
+    --branding-color: rgb(78, 163, 220);
     --text-color: #272142;
     --background-color: #e8e1f8f1;
     --main-font-family: 'Averia Serif Libre', cursive;
@@ -41,7 +41,7 @@ p {
 }
 
 .background {
-    background-image: url(../img/pexels-2.jpg);
+    background-image: url(../img/pexels-2_s.jpg);
     background-size: cover;
     background-blend-mode: soft-light;
     background-position: center center;
