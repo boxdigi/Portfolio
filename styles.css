@@ -103,6 +103,8 @@ p {
 
 .logo {
     max-height: 40px;
+    padding: 5px;
+    border-radius: 30px;
 }
 
 nav {
