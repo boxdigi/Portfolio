@@ -36,19 +36,22 @@ p {
     line-height: 30px;
 }
 
+.brand-font {
+    font-family: 'Redressed', cursive;
+}
+
 .background {
     background-image: url(../img/pexels-2.jpg);
-    background-repeat: repeat;
     background-size: cover;
     background-blend-mode: soft-light;
-    background-position: left center;
+    background-position: center center;
 }
 
 .transbox {
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(4px);
-    padding: 20px;
-    margin: 30px;
+    padding: 20px 40px;
+    margin: 30px 150px;
     font-weight: bold;
 }
 
@@ -134,7 +137,7 @@ nav ul {
 nav li {
     display: inline;
     list-style: none;
-    line-height: 42px;
+    line-height: 45px;
     margin-left: 15px;
 }
 
@@ -251,10 +254,15 @@ footer .social-links a:hover {
         padding-top: 15px;
     }
 
+    .transbox {
+        display: block;
+        margin: 10px;
+    }
+
     .hero,
     .about,
     .works {
-        padding: 20px;
+        padding: 15px;
     }
 
     .about,
