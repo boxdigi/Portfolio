@@ -32,12 +32,26 @@ h3 {
 p {
     font-family: var(--secondary-font-family);
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+.shecodes-links {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.shecodes-links:hover {
+    color: blueviolet;
 }
 
 .brand-font {
     font-family: 'Redressed', cursive;
+    font-size: 24px;
 }
 
 .background {
@@ -150,7 +164,7 @@ p {
 }
 
 .logo {
-    max-height: 40px;
+    max-height: 45px;
     padding: 5px;
     border-radius: 30px;
 }
@@ -165,8 +179,8 @@ nav ul {
 }
 
 nav li {
+    font-size: 20px;
     display: inline;
-    list-style: none;
     line-height: 45px;
     margin-left: 15px;
 }
@@ -271,7 +285,7 @@ footer .social-links a:hover {
     }
 
     .transbox {
-        margin: 0 50px;
+        margin: 0 150px;
     }
 
 }
