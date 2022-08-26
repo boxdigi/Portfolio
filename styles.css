@@ -269,18 +269,14 @@ p.web {
         padding: 60px 30px 30px 60px;
     }
 
-
-
     .transbox {
         margin: 0 150px;
     }
-
 }
 
 @media(max-width:500px) {
 
-    h1,
-    .works-description h1 {
+    h1 {
         font-size: 50px;
         line-height: 60px;
     }
@@ -306,6 +302,13 @@ p.web {
     .heading .transbox {
         margin: 50px 5px 5px;
         text-align: center;
+
+    }
+
+    .heading h1,
+    .heading h2,
+    .heading p {
+        text-shadow: none;
     }
 
     nav li {
