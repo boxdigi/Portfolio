@@ -1,7 +1,7 @@
 :root {
     --branding-color: rgb(27, 147, 228);
     --text-color: #272142;
-    --background-color: #e8e1f8f1;
+    --background-color: rgb(255, 232, 175);
     --main-font-family: 'Averia Serif Libre', cursive;
     --secondary-font-family: 'Libre Franklin', sans-serif;
 }
@@ -171,7 +171,7 @@ nav a {
 }
 
 nav a:hover,
-nav li.active a {
+nav li.active {
     color: var(--branding-color)
 }
 
