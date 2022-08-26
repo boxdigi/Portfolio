@@ -12,9 +12,9 @@ h3,
 h4,
 h5,
 h6 {
-    color: black;
+    color: var(--text-color);
     font-family: var(--main-font-family);
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 h1 {
@@ -43,16 +43,16 @@ p {
 .background {
     background-image: url(../img/pexels-2_s.jpg);
     background-size: cover;
-    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
     background-position: center center;
 }
 
 .transbox {
     background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(15px);
     padding: 20px 40px;
     margin: 30px 150px;
-    font-weight: bold;
+    border-radius: 15px;
 }
 
 .project {
@@ -79,8 +79,15 @@ p {
 
 
 .hero {
-    text-align: center;
-    padding: 160px 20px;
+
+    padding: 160px 20px 75px;
+}
+
+.hero h1,
+.hero h2,
+.hero p {
+    text-shadow: -1px -3px 8px rgba(255, 255, 255, 0.7);
+
 }
 
 .hero p {
@@ -88,12 +95,12 @@ p {
     font-weight: normal;
     margin: 0;
     color: var(--text-color);
+
 }
 
 .hero h2 {
     color: var(--text-color);
     line-height: 2;
-    font-weight: lighter;
     font-family: var(--secondary-font-family);
     font-size: 24px;
 }
@@ -139,7 +146,7 @@ p {
 
 .about h2 {
     font-size: 18px;
-    font-family: var(--secondary-font-family);
+    font-family: var(--main-font-family);
 }
 
 .logo {
@@ -262,6 +269,11 @@ footer .social-links a:hover {
     .works {
         text-align: center;
     }
+
+    .transbox {
+        margin: 0 50px;
+    }
+
 }
 
 @media(max-width:900px) {
@@ -274,6 +286,10 @@ footer .social-links a:hover {
 
     h2 {
         font-size: 40px;
+    }
+
+    .hero h2 {
+        line-height: 1.5;
     }
 
     h3 {
@@ -295,16 +311,16 @@ footer .social-links a:hover {
         margin: 10px;
     }
 
-    .hero,
-    .about,
-    .works {
-        padding: 15px;
+    .hero {
+        text-align: center;
     }
 
     .about,
     .works {
+        padding: 15px;
         text-align: center;
     }
+
 
     nav li {
         margin-left: 5px;
