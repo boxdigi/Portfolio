@@ -174,6 +174,7 @@ img {
 
 .rounded-img {
     border-radius: 15px;
+    max-height: 400px;
 }
 
 img:hover {
@@ -286,7 +287,6 @@ p.web {
     footer .contact-box p {
         line-height: 1.2;
     }
-
 }
 
 @media(max-width:768px) {
@@ -306,6 +306,10 @@ p.web {
 
     .contact-links {
         padding: 10px 100px;
+    }
+
+    .rounded-img {
+        margin-top: 75px;
     }
 }
 
