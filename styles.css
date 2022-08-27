@@ -235,15 +235,7 @@ p.web {
     padding-top: 20px;
 }
 
-@media(min-width:992px) {
-    .project-description {
-        padding: 60px 30px 30px 60px;
-    }
 
-    .transbox {
-        margin: 0 150px;
-    }
-}
 
 @media(max-width:500px) {
 
@@ -295,15 +287,27 @@ p.web {
         line-height: 1.2;
     }
 
+}
+
+@media(max-width:768px) {
     .contact-links {
         text-align: center;
     }
-
-    .col-sm {
-        margin: 5px;
-    }
 }
 
+@media(min-width:992px) {
+    .project-description {
+        padding: 60px 30px 30px 60px;
+    }
+
+    .transbox {
+        margin: 0 150px;
+    }
+
+    .contact-links {
+        padding: 10px 100px;
+    }
+}
 
 @media(min-width:1200px) {
     .project-description {
