@@ -98,7 +98,6 @@ li {
 
 .heading .transbox {
     margin: 30px 75px 15px;
-
 }
 
 
@@ -134,25 +133,6 @@ li {
     margin: 20px;
 }
 
-.about,
-.works {
-    padding: 50px 20px;
-}
-
-.about-description,
-.works-description {
-    margin: 20px;
-}
-
-.about h1 {
-    font-size: 64px;
-}
-
-.about h2 {
-    font-size: 18px;
-    font-family: var(--main-font-family);
-}
-
 .logo {
     max-height: 45px;
     padding: 5px;
@@ -186,20 +166,7 @@ nav li.active {
     color: var(--branding-color)
 }
 
-.works-description h1 {
-    font-size: 62px;
-    line-height: 80px;
-}
 
-.works-description h3 {
-    font-size: 24px;
-    line-height: 1.5;
-    font-family: var(--secondary-font-family);
-}
-
-.works-description p {
-    font-size: 14px;
-}
 
 img {
     padding: 2px;
@@ -350,5 +317,13 @@ p.web {
 
     .col img {
         margin: 75px 50px 50px;
+    }
+
+    .img-preview .col img {
+        margin: 50px 15px 20px;
+    }
+
+    .heading .transbox {
+        margin: 30px 250px 15px;
     }
 }
