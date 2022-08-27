@@ -42,7 +42,7 @@ li {
 
 .shecodes-links {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--branding-color);
 }
 
 .shecodes-links:hover {
@@ -205,6 +205,10 @@ img {
     padding: 2px;
 }
 
+.rounded-img {
+    border-radius: 15px;
+}
+
 img:hover {
     transform: scale(1.01);
 }
@@ -292,6 +296,7 @@ p.web {
     .project-description {
         text-align: center;
         padding: 0;
+        margin: 10px;
     }
 
     .project-description h2 {
@@ -326,7 +331,12 @@ p.web {
     .contact-links {
         text-align: center;
     }
+
+    .col-sm {
+        margin: 5px;
+    }
 }
+
 
 @media(min-width:1200px) {
     .project-description {
@@ -336,5 +346,9 @@ p.web {
     .project {
         margin: 50px 120px;
         padding: 40px;
+    }
+
+    .col img {
+        margin: 75px 50px 50px;
     }
 }
